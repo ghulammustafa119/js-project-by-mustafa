@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    display: block;
+    font-size: 8.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button{
+    display: inline-block;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.button.blue{
+    background-color: orange;
+}
+.button.red{
+    background-color: crimson;
+}
+
+.button.green{
+    background-color: forestgreen;
+}
+
+h1{
+    border-bottom-style: dashed;
+    color: blue;
+}
+p{
+    margin: 1rem;
+    font-size: 0.85rem;
+    margin-left: 12rem;
+    color: rgb(195, 0, 255);
+}
